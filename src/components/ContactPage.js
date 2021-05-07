@@ -55,6 +55,7 @@ class ContactPage extends Component {
         .catch((error) => {
           toast.error("Email Not Sent");
         });
+        event.target.reset();
     }
   }
   validateForm() {
